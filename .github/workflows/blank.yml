@@ -26,7 +26,7 @@ jobs:
       run: npm i axios react-markdown react-router-dom react-router
       
     - name: create app
-      run: npx create-react-app
+      run: npx create-react-app .
      
     - name: Build project
       run: npm run build
